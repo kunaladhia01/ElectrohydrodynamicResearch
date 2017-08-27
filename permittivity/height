@@ -1,0 +1,2060 @@
+Timing summary: 100 timesteps 17413 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.057         |   0.028 max:     0.240
+  domain size:
+      min:       940 avg:       986         |     329 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (74.6%) |   0.043 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (21.7%) |   0.007 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.2%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.001 ( 2.3%) |   0.003 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.1%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.4%) |   0.000 max:     0.020
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.2%) |   0.000 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+Timing summary: 200 timesteps 16434 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.059         |   0.020 max:     0.240
+  domain size:
+      min:       940 avg:       968         |     233 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (70.7%) |   0.033 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (20.1%) |   0.006 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.7%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.0%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.2%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+Timing summary: 300 timesteps 16091 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.060         |   0.017 max:     0.240
+  domain size:
+      min:       940 avg:       962         |     190 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (69.3%) |   0.029 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (19.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.5%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.1%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.1%) |   0.000 max:     0.020
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+Timing summary: 400 timesteps 15494 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.062         |   0.016 max:     0.240
+  domain size:
+      min:       940 avg:       960         |     165 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (69.9%) |   0.028 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (19.0%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.7%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.1%) |   0.000 max:     0.020
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 500 timesteps 15399 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.062         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |     148 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (69.6%) |   0.026 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (18.7%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.1%) |   0.000 max:     0.020
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 600 timesteps 15423 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.062         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       954         |     135 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (69.1%) |   0.025 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.012 (18.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.1%) |   0.000 max:     0.020
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 700 timesteps 15292 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.062         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       953         |     125 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (69.0%) |   0.025 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (18.3%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.2%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.001 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 800 timesteps 15446 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.062         |   0.013 max:     0.240
+  domain size:
+      min:       937 avg:       953         |     117 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (68.4%) |   0.024 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (18.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 900 timesteps 15843 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.060         |   0.013 max:     0.240
+  domain size:
+      min:       937 avg:       953         |     110 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.014 (67.5%) |   0.023 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (19.0%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.5%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 2.9%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 2.8%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.002 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1000 timesteps 16463 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.058         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       953         |     105 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.013 (66.1%) |   0.022 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (19.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.7%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.2%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1100 timesteps 16974 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.056         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       954         |     100 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.012 (65.0%) |   0.021 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (20.3%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.2%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.0%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.3%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1200 timesteps 17475 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.055         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       954         |      96 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.012 (64.0%) |   0.020 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (20.9%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.1%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.1%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.4%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1300 timesteps 18042 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.053         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      92 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.011 (62.7%) |   0.020 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (21.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.4%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.4%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.9%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1400 timesteps 18588 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.051         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      88 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.011 (61.5%) |   0.019 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (22.3%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.5%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.3%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.4%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.9%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1500 timesteps 19097 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.050         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      85 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.010 (60.5%) |   0.019 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (22.7%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.6%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.9%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1600 timesteps 19629 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.049         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      83 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.010 (59.6%) |   0.018 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (23.1%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1700 timesteps 20197 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.047         |   0.018 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      80 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.009 (58.7%) |   0.018 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (23.3%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 3.8%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.8%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 0.9%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1800 timesteps 20725 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.046         |   0.018 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      78 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.009 (57.9%) |   0.017 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (23.7%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.0%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.4%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 1900 timesteps 21091 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.045         |   0.018 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      76 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.009 (57.0%) |   0.017 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (24.2%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2000 timesteps 21412 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.045         |   0.018 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      74 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (56.2%) |   0.017 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (24.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.003 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.6%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2100 timesteps 21637 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.044         |   0.018 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      72 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (55.7%) |   0.016 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (24.8%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2200 timesteps 21805 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.044         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      71 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (55.3%) |   0.016 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (25.0%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 3.9%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2300 timesteps 21940 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.044         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      69 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (54.9%) |   0.016 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (25.1%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.0%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2400 timesteps 22215 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.043         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       955         |      68 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (54.4%) |   0.016 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (25.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2500 timesteps 22489 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.043         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      66 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.008 (53.8%) |   0.015 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (25.8%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.1%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.0%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2600 timesteps 22683 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.042         |   0.017 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      65 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (53.3%) |   0.015 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (26.0%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2700 timesteps 22875 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.042         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      64 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (52.9%) |   0.015 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (26.2%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2800 timesteps 23057 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.041         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       957         |      63 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (52.4%) |   0.015 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (26.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.5%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 2900 timesteps 23207 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.041         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       957         |      62 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (52.1%) |   0.015 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (26.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3000 timesteps 23395 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.041         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       957         |      61 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (51.7%) |   0.014 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (26.9%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3100 timesteps 23591 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.041         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       957         |      60 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (51.3%) |   0.014 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (27.1%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3200 timesteps 23787 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.040         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      59 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (50.9%) |   0.014 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (27.4%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3300 timesteps 23985 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.040         |   0.016 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      58 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (50.5%) |   0.014 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (27.7%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3400 timesteps 24178 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.040         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      57 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.007 (50.1%) |   0.014 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (27.9%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.2%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.6%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.1%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3500 timesteps 24377 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.039         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      56 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (49.6%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (28.2%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.3%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3600 timesteps 24550 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.039         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      55 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (49.2%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (28.4%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3700 timesteps 24704 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.039         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      55 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (48.9%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (28.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.2%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3800 timesteps 24866 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.038         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      54 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (48.6%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (28.7%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.2%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.4%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 3900 timesteps 25008 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.038         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      53 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (48.2%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (28.9%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.2%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.7%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4000 timesteps 25137 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.038         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      52 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (47.9%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (29.1%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.2%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4100 timesteps 25272 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.038         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      52 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (47.6%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (29.3%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.2%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.8%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4200 timesteps 25414 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.038         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      51 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (47.4%) |   0.013 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (29.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4300 timesteps 25552 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.037         |   0.015 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      51 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (47.1%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (29.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 4.9%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.5%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4400 timesteps 25685 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.037         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      50 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (46.8%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (29.8%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4500 timesteps 25811 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.037         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      49 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (46.5%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.0%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.6%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4600 timesteps 25946 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.037         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      49 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (46.1%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.2%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.8%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4700 timesteps 26086 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.037         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      48 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (45.9%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.4%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.3%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.8%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4800 timesteps 26227 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.036         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      48 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.006 (45.6%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.5%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.4%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.0%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 4900 timesteps 26360 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.036         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      47 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.005 (45.4%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.6%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.5%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.7%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
+Timing summary: 5000 timesteps 26492 node.timestep/s
+  timestep:
+      min:     0.000 avg:     0.036         |   0.014 max:     0.240
+  domain size:
+      min:       937 avg:       956         |      47 max:      4204
+  maximum number of variables: 30
+  poisson_solve:
+      min:     0.000 avg:     0.005 (45.1%) |   0.012 max:     0.690
+  centered_velocity_advection_diffusion:
+      min:     0.000 avg:     0.011 (30.8%) |   0.005 max:     0.050
+  approximate_projection:
+      min:     0.000 avg:     0.002 ( 5.5%) |   0.004 max:     0.010
+  predicted_face_velocities:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  mac_projection:
+      min:     0.000 avg:     0.002 ( 5.1%) |   0.004 max:     0.010
+  tracer_vof_advection:
+      min:     0.000 avg:     0.002 ( 4.7%) |   0.004 max:     0.010
+  GfsSourceElectric:
+      min:     0.000 avg:     0.001 ( 1.8%) |   0.002 max:     0.010
+  tracer_advection_diffusion:
+      min:     0.000 avg:     0.000 ( 1.2%) |   0.002 max:     0.010
+  adapt:
+      min:     0.000 avg:     0.000 ( 0.8%) |   0.002 max:     0.010
+  GfsVariableCurvature:
+      min:     0.000 avg:     0.000 ( 0.5%) |   0.001 max:     0.010
+  GfsSourceDiffusionExplicit:
+      min:     0.000 avg:     0.000 ( 0.2%) |   0.001 max:     0.010
+  GfsSourceViscosity:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.001 max:     0.010
+  GfsOutputSimulation:
+      min:     0.000 avg:     0.000 ( 0.1%) |   0.000 max:     0.010
+  GfsEventStop:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsAdaptGradient:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  GfsOutputScalarSum:
+      min:     0.000 avg:     0.000 ( 0.0%) |   0.000 max:     0.010
+  solid_fractions:
+      min:     0.020 avg:     0.020 ( 0.0%) |   0.000 max:     0.020
+  simulation_refine:
+      min:     0.010 avg:     0.010 ( 0.0%) |   0.000 max:     0.010
